@@ -19,7 +19,8 @@ $(document).ready(function(){
     });
     //add links to github page through sha 
     function buildTr(commitInfo){
-      var shaTd = $("<a>").addClass("td").append(commitInfo.sha.substr(0,9)).attr("href", commitInfo.parents[0].html_url);     
+      var newA = $("<a>").append(commitInfo.sha.substr(0,9)).attr("href", commitInfo.parents[0].html_url);
+      var shaTd = $("<td>").append(newA);     
       var mesTd = $("<td>").append(commitInfo.commit.message);
       var autTd = $("<td>").append(commitInfo.commit.author.name);
       var dateTd = $("<td>").append(commitInfo.commit.author.date);
