@@ -1,0 +1,256 @@
+body {
+  background-color: #fefefe;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+  font-size: 22px
+}
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+  float: left;
+  padding: 15px;
+  margin: 8px 0px 2px 15px;
+  background-color: transparent;
+}
+.navbar-collapse {
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  /*float: none!important;*/
+  margin: 7.5px 24px;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar-collapse.collapse {
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-fixed-top {
+  position: fixed;
+   right: 0; 
+  left: 0;
+  z-index: 1030;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #332F2F;
+}
+.navbar-fixed-top .navbar-collapse {
+  min-height: 580px;
+}
+.nav>li>a {
+  padding: 15px 10px;
+}
+nav {
+  display: inline-table;
+}
+.navGray{
+  background-color: #EBEBEB;
+  overflow: hidden;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+img {
+  position: relative;
+  margin-bottom: 20px;
+}
+#sidebar {
+  font-size: 1.2em;
+}
+#sidebar li.active {
+    border:0 #eee solid;
+    background-color: navy blue;
+}
+/*#sidebar li {
+  width: 100%;
+}*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  color: #0C0C0C;
+  background-color: #757373;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  font-size: 1.2em;
+}
+img.img-responsive{
+  width: 223px;
+}
+.socIcons {
+  margin-bottom: 36%;
+  text-align: center;
+}
+.socIcons img {
+  width: 50px;
+  height: 50px;
+}
+#navSocIcons{
+  margin-bottom: 0%;
+  text-align: center;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+h3 {
+  font-style: italic;
+}
+.full {
+  background-color: rgba(67,58,59,0.7);
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 100px;
+}
+#leftCol {
+  padding-right: 0;
+}
+#home {
+  padding-left: 0;
+  padding-right: 0;
+  background-image: url("../images/Gorge.jpg");
+  background-color: #C8B0AC;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+  text-align: center;
+  color: #F0F0F0;
+}
+
+#home h1 {
+  font-size: 3.5em;
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom: 0;
+}
+
+#home p {
+  font-size: 1.5em;
+}
+.headInfo {
+  position: relative;
+  top: 95px;
+}
+#about{
+  padding: 5% 10%;
+  color: #fff;
+  background-color: #666F41;
+}
+#skills{
+  background-image: url("../images/greyzz.png");
+}
+#skills h1{
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+ul{
+  list-style-type: none;
+}
+#list-1>ul>li, #list-2>ul>li, #list-3>ul>li, #list-4>ul>li{
+  height: 50px;
+  line-height: 40px;
+  margin-top: 30px;
+}
+li>img{
+  position: relative;
+  top: 8px;
+  height: 20px;
+  width: 20px;
+}
+.homeList {
+  margin-top: 7px;
+  display: inline-block;
+}
+.homeList > ul > li {
+  font-size: 1.5em;
+  padding-bottom: 6px;
+  list-style: none;
+}
+.homeList > ul > li > a {
+  background-color: #CFBCB6;
+}
+
+table {
+  font-size: inherit;
+}
+
+.red {
+  color:#f3843e;
+}
+
+ul.red  {
+  padding-left: 0;
+}
+
+a {
+  color: #CE6F2D;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#2A2E53;
+}
+
+a:hover {
+  color:#fff;
+}
+
+p > a:hover, .bnav a:hover, .projects a:hover {
+  color:#3383AD;
+}
+
+#contact {
+  background-image: url("../images/grayselfie.png");
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: right;
+  opacity: .8;
+ }
+
+ #contact p {
+  padding-top: 13px;
+ }
+#contact form {
+  padding-bottom: 8%;
+}
+.info {
+  position: relative;
+  top: 95px;
+}
+#projects {
+  background-color: #F0F0F0;
+}
+#fun, .blog {
+  background-image: url("../images/Splashmin.jpg");
+}
+
+.projects .list-group{
+  padding-right: 0;
+}
+
+.projects .table-responsive {
+  padding-left: 5px;  
+}
+
+.projects table {
+  font-size: medium;
+}
+.navbar-collapse.collapse.in {
+  display: block !important; 
+  background-color: #EBEBEB;
+} 

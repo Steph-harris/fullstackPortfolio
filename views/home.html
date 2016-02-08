@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Stephanie's Portfolio Page</title> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../public/css/master.css">
+</head>
+<body>
+  <!-- make collapsed navbar visible on small and xs screens -->
+  <div class="container-fluid">
+    <div class ="col-xs-12" id="home"> 
+      <div class="col-xs-12 full">         
+          <div class="headInfo col-xs-12 col-sm-10 col-sm-offset-1">
+            <h1>Stephanie Harris</h1>
+            <p>MEAN stack web developer located in central NJ</p>  
+          </div>  
+      </div>
+    </div>
+  
+    <div class="row-fluid"> 
+      <div class="col-sm-2" id="leftCol">
+      <!-- make navbar sticky on left -->
+        <nav class="navbar navbar-default" id='sidebar'> 
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <a href="#home"><span class="sr-only">(current)</span><img src="../public/images/grayrcbpic.png" class="img-responsive" title="Home"></a>
+            <div id="socIcons">
+              <a href="https://www.linkedin.com/in/stephharris21" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-48.png" alt="Stephanie's Linkedin"  border="0">
+              </a>
+              <a href="https://github.com/Steph-harris" target="_blank"><img src="http://cdn.flaticon.com/svg/38/38401.svg" alt="Stephanie's Github"  border="0"> 
+              </a>
+              <a href="http://stackoverflow.com/users/5072001/stephanie-harris" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/stackoverflow_rounded-128.png" alt="Stephanie's Stack"  border="0">
+              </a>     
+            </div>
+            <ul class="nav navbar-nav">
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#fun">Fun Facts</a></li>
+              <li><a href="blog.html">Blog</a></li> 
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="projects.html">Github Log</a></li>
+                  <li><a href="#">Descriptions</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.navbar-collapse -->  
+        </nav>
+      </div>
+    
+      <div class="col-xs-12 col-sm-10">
+        <section id="about">
+          <h2>About Me</h2>
+          <p>I’m Stephanie Harris and I’ve recently left a career as a church music director to become a web developer.  I actually built my first website when I was 11, but it wasn’t until last year, when I signed up for an online coding bootcamp, that I seriously considered a career in tech. I knew that I would benefit more, and progress quicker, by participating in the more collaborative and immersive experience that an in person bootcamp like Rutgers’ offers. So I switched to Rutgers’ Coding Bootcamp where I’ve developed skills in front-end technologies like HTML, CSS, and Javascript, frameworks like Bootstrap, and Git version control.</p>
+          <p>
+            I am proficient in using:
+            <ul>
+              <li>Html and Css</li>
+              <li>Bootstrap</li>
+              <li>Javascript</li>
+              <li>JQuery</li>
+              <li>JSON and AJAX</li>
+              <li>Node.js</li>
+              <li>Databases like:
+                <ol>
+                  <li>MongoDB</li>
+                  <li>Mysql</li>
+                </ol>
+              </li>
+              
+              <li>Git version control</li>
+            </ul>
+          </p>
+
+          <h3>Education</h3>
+          <p>
+            <table class="table-responsive" border="3">
+              <tr>
+                <th>School</th>
+                <td>Rutgers Coding Bootcamp</td>
+                <td>Concordia University</td>
+                <td>Eastern University</td>
+              </tr>
+              <tr>
+                <th>Degree</th>
+                <td>Web Development Certificate</td>
+                <td>Master of Church Music</td>
+                <td>Bachelor of Music</td>
+              </tr>
+              <tr>
+                <th>Year</th>
+                <td>2016</td>
+                <td>2014</td>
+                <td>2010</td>
+              </tr>  
+            </table >
+          </p>
+
+          <p class="red">For more about me, check out these links:</p>
+
+          <p><a href="http://painter-mildred-27247.bitballoon.com/" target="_blank">My first website</a></p>
+          <p></p>
+          <p><a href="https://www.youtube.com/user/Powerpuffspice/videos" target="_blank">My music skills</a></p>
+          <p></p>    
+        </section>
+      </div> 
+    </div>
+
+    <div class="row-fluid">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-2">
+        <section class="info" id="contact">
+            <h2>Contact Info</h2>
+            <p><strong>Mailing Address:</strong><br>
+            133 Arlington Ave <br> Somerset, NJ 08873</p>
+            <p><strong>Email: </strong>Steph.harris21@gmail.com</p>
+            <p><strong>Cell Number:</strong> 908-616-8505</p>
+            <br />
+            <h3>Leave a Message</h3>
+            <form>
+              Name:
+              <input type="text">
+              <br>
+              Email:
+              <input type="email" >
+              <br>
+              Comment:
+              <br>
+              <textarea rows ="5" cols="30">  
+              </textarea>
+            </form>
+        </section>
+      </div>
+    </div>
+
+    <div class="row-fluid">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-2"> 
+        <section id="fun">
+          <h1>Fun Facts</h1>
+          <ul>
+            <li><h3>I've had two pet rabbits: Pumpkin and my current pet Bruno Bunny. Neither of them were shelter animals, but they were both part of my inspiration to create my shelter pet finder website showusapet.herokuapp.com</h3></li><li><h3>I've been on choir tours to Austria,the Czech Republic, Germany, Ireland, and Italy, and I was part of the first American choir to have a concert in the Sistine Chapel in 2014.</h3></li>
+            <li><h3>I took all of the pictures on this page during different trips in 2015. They are from Guyana, South America or Niagara Falls (the Canadian side of course!).</h3></li>  
+            <li><h3>After being a Yankees fan for three years, I became a huge Mets fan in 1999. There's still time for them to win another World Series before I turn 30!</h3></li>           
+          </ul>
+        </section>
+      </div>
+    </div>  
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../public/scripts/portfolio.js"></script>
+</body>
+</html>
