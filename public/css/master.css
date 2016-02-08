@@ -121,7 +121,7 @@ h3 {
 #home {
   padding-left: 0;
   padding-right: 0;
-  background-image: url("../images/Gorge.jpg");
+  background-image: url("/images/Gorge.jpg");
   background-color: #C8B0AC;
   background-blend-mode: darken;
   background-size: cover;
@@ -151,7 +151,7 @@ h3 {
   background-color: #666F41;
 }
 #skills{
-  background-image: url("../images/greyzz.png");
+  background-image: url("/images/greyzz.png");
 }
 #skills h1{
   text-align: center;
@@ -215,7 +215,7 @@ p > a:hover, .bnav a:hover, .projects a:hover {
 }
 
 #contact {
-  background-image: url("../images/grayselfie.png");
+  background-image: url("/images/grayselfie.png");
   background-repeat: no-repeat;
   background-size: 75%;
   background-position: right;
@@ -236,7 +236,7 @@ p > a:hover, .bnav a:hover, .projects a:hover {
   background-color: #F0F0F0;
 }
 #fun, .blog {
-  background-image: url("../images/Splashmin.jpg");
+  background-image: url("/images/Splashmin.jpg");
 }
 
 .projects .list-group{
