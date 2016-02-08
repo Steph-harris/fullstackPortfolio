@@ -1,14 +1,12 @@
 $(document).ready(function(){
+  //Git call to load all my repo names
   $.ajax({
     type:"GET",
     url:"https://api.github.com/users/Steph-harris/repos?sort=pushed",
     success: function (userInfo) {
-      // debugger;
       for(var i=0; i<userInfo.length; i++){
         var repoNms = repoLink(userInfo[i]);
-        // var newH2 = $("<h2>").append(repoNms);
         $(".list-group").append(repoNms);
-      // .append(repoNms)
       }
     },
     error: function(jqXHR, textStatus, errorThrown){

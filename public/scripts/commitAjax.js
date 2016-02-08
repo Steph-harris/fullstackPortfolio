@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $(".list-group").on("click", "a", function(e){
     e.preventDefault(); 
+    //Git call to collect commits for clicked repo name
     $.ajax({
       type:"GET",
       url:$(this).attr("href"),
@@ -16,9 +17,9 @@ $(document).ready(function(){
         console.log(errorThrown);
       } 
     });
-
+    //add links to github page through sha 
     function buildTr(commitInfo){
-      var shaTd = $("<a>").addClass("td").append(commitInfo.sha).attr("href", commitInfo.parents[0].html_url);     
+      var shaTd = $("<a>").addClass("td").append(commitInfo.sha.substr(0,9)).attr("href", commitInfo.parents[0].html_url);     
       var mesTd = $("<td>").append(commitInfo.commit.message);
       var autTd = $("<td>").append(commitInfo.commit.author.name);
       var dateTd = $("<td>").append(commitInfo.commit.author.date);
