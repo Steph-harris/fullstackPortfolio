@@ -15,8 +15,8 @@ app.get("/projects", function(req, res){
 app.get("/blog", function(req, res){
   res.sendFile(process.cwd() + "/views/blog.html");
 });
-app.get("/rps", function(req, res){
-  res.sendFile(process.cwd() + "/views/rps.html");
+app.get("/showcase", function(req, res){
+  res.sendFile(process.cwd() + "/views/showcase.html");
 });
 
 app.listen(PORT, function(){

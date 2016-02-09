@@ -1,0 +1,22 @@
+body {
+  background: url("/images/greyzz.png");
+}
+.container-fluid {
+  padding: 10px 15px;
+}
+.row {
+  margin-bottom: 30px;
+  border-bottom: 2px ridge black;
+}
+.row:nth-child(3){
+  border-bottom: none;
+}
+a:hover, a:visited {
+  color: #337ab7;
+}
+ul {
+  list-style-type: circle;
+}
+img.img-responsive {
+  width: auto;
+}

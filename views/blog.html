@@ -11,13 +11,18 @@
 <body>
   <!-- Set Up navbar as an aside in this page -->
   <nav class="bnav">
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="https://radiant-beyond-3672.herokuapp.com/#about">About Me</a></li>
-      <li><a href="https://radiant-beyond-3672.herokuapp.com/#contact">Contact</a></li>
-      <li><a href="/projects">Projects</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="https://radiant-beyond-3672.herokuapp.com/#fun">Fun Facts</a></li>
+    <ul class="nav navbar-nav">
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#fun">Fun Facts</a></li>
+      <li><a href="/blog">Blog</a></li> 
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/showcase">Showcase</a></li>
+          <li><a href="/projects">Github Log</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
   <article class="blog">
