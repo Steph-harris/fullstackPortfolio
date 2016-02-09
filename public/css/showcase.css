@@ -25,4 +25,5 @@ ul {
 }
 img.img-responsive {
   width: auto;
+  padding-top: 20px;
 }
