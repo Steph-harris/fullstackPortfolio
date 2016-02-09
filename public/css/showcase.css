@@ -6,12 +6,15 @@ body {
 }
 .row {
   margin-bottom: 30px;
-  border-bottom: 2px ridge black;
+  border-top: 2px ridge black;
 }
-.row:nth-child(3){
-  border-bottom: none;
+.row:nth-child(2){
+  border-top: none;
 }
-a:hover {
+a>i {
+  color: #000;
+}
+a:hover, a>i:hover {
   color: #337ab7;
 }
 a:visited {

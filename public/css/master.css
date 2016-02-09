@@ -203,10 +203,6 @@ a:visited {
   color:#2A2E53;
 }
 
-a:hover {
-  color:#fff;
-}
-
 p > a:hover, .bnav a:hover, .projects a:hover {
   color:#3383AD;
 }
