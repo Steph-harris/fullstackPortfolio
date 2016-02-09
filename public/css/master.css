@@ -121,8 +121,6 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   background-image: url("/images/Gorge.jpg");
-  background-color: #C8B0AC;
-  background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center center;
@@ -214,22 +212,26 @@ p > a:hover, .bnav a:hover, .projects a:hover {
 }
 
 #contact {
-  background-image: url("/images/grayselfie.png");
-  background-repeat: no-repeat;
-  background-size: 75%;
-  background-position: right;
-  opacity: .8;
+  text-align: center;
  }
-
+ #graySelfie{
+  width: auto;
+  margin-bottom: 0;
+ }
  #contact p {
   padding-top: 13px;
  }
 #contact form {
   padding-bottom: 8%;
 }
+#contactSocIcons {
+  margin-bottom: 0;
+  padding-top: 5px;
+}
 .info {
   position: relative;
-  top: 95px;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 #projects {
   background-color: #F0F0F0;
@@ -237,7 +239,13 @@ p > a:hover, .bnav a:hover, .projects a:hover {
 #fun, .blog {
   background-image: url("/images/Splashmin.jpg");
 }
-
+.fun {
+  padding-left: 0;
+  padding-right: 0;
+}
+#fun {
+  padding: 10px;
+}
 .projects .list-group{
   padding-right: 0;
 }
