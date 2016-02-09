@@ -11,8 +11,11 @@ body {
 .row:nth-child(3){
   border-bottom: none;
 }
-a:hover, a:visited {
+a:hover {
   color: #337ab7;
+}
+a:visited {
+  background-color: #757373
 }
 ul {
   list-style-type: circle;
