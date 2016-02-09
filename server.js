@@ -1,10 +1,15 @@
 var express = require("express");
 var app = express();
+var session = require("express-session");
 var PORT = process.env.PORT || 8080;
 
 app.use("/scripts", express.static("public/scripts"));
 app.use("/css", express.static("public/css"));
 app.use("/images", express.static("public/images"));
+//session middleware
+app.use(session({
+
+}));
 
 app.get("/", function(req, res){
   res.sendFile(process.cwd() + "/views/home.html");

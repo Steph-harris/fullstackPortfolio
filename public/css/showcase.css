@@ -8,7 +8,7 @@ body {
   margin-bottom: 30px;
   border-top: 2px ridge black;
 }
-.row:nth-child(2){
+.row:nth-child(2), #blog .row{
   border-top: none;
 }
 a>i {
@@ -17,7 +17,7 @@ a>i {
 a:hover, a>i:hover {
   color: #337ab7;
 }
-a:visited {
+section h2>a:visited {
   background-color: #757373
 }
 ul {
@@ -26,4 +26,16 @@ ul {
 img.img-responsive {
   width: auto;
   padding-top: 20px;
+}
+/*Blog CSS*/
+#blog {
+  background-image: url("/images/linedpaper.png");
+}
+blockquote {
+  border: 3px solid #eee;
+}
+/*Repo CSS*/
+td>a:hover {
+  color: #DE9E29;
+}
 }

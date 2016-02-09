@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Steph-harris/fullstackPortfolio#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "express-session": "^1.13.0"
   }
 }

@@ -6,44 +6,71 @@
   <title>Lute's Autumn Kiss</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ultra">
-  <link rel="stylesheet" type="text/css" href="/css/master.css">
+  <link rel="stylesheet" type="text/css" href="/css/showcase.css">
 </head>
-<body>
+<body id="blog">
   <!-- Set Up navbar as an aside in this page -->
-  <nav class="bnav">
-    <ul class="nav navbar-nav">
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#fun">Fun Facts</a></li>
-      <li><a href="/blog">Blog</a></li> 
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="/showcase">Showcase</a></li>
-          <li><a href="/projects">Github Log</a></li>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Stephanie Harris</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <ul class="nav navbar-nav navbar-right">
+          <li><a href="/">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/showcase">Showcase</a></li>
+              <li><a href="/projects">Github Repos</a></li>
+            </ul>
+          </li>
+          <li><a href="/blog">Blog</a></li> 
         </ul>
-      </li>
-    </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
   </nav>
-  <article class="blog">
-    <h1>Halfway Through!</h1>
-    <time datetime="2016-2-7">2/7/2016</time>
-    <blockquote>“Anything worth doing is worth doing poorly--until you can learn to do it well.”
-    ― Zig Ziglar
-    </blockquote>
-    <p>It has been over 3 full months since my first class in this wild ride of a bootcamp.  As promised, I have had moments of brilliance, and, probably more often, moments where I felt like I would never understand this web development stuff even if I had all of the time in the world! It has been fun, and I can confidently say that I have learned much more than I ever could have by just studying this stuff by myself at home.</p>
-    <p>Way back when I was a guitar class T.A. in college, I used to tell the beginning students the above quote by Ziglar. This wasn't meant to discourage them, but to impress upon them the reality that they were probably going to suck at guitar for awhile...their fingers and wrists would hurt, their brains would feel like they were trying to read alphabet soup, and their roommates would probably ask them more than once if they had somewhere else to practice.  But if they kept practicing, especially when they didn't feel like it, they would start to sound and feel like real guitarists.</p>
-    <p>I am definitely taking my own advice to heart now. Some days I feel like I can't remember anything I've learned and it's super discouraging, but when I take a step back I can see just how far I've come.  I just built my own node web server for this portfolio...how freaking cool is that?! I didn't even know what that was a week ago! I'm super excited to see what happens when all of these lessons start to come together, but for now I just need to keep working on feeling and being a web developer.</p>
-  </article>
-  <article class="blog">
-    <h1>Opening Thoughts...</h1>
-    <time datetime="2015-11-1">10/30/2015</time>
-    <blockquote>Every time you post something online, you have a choice. You can either make it something that adds to the happiness levels in the world - or you can make it something that takes away...There is enough sadness in the world already. You don't need to add to it.
-    - Zoe Sugg
-    </blockquote>
-    <p>Welcome to the initial installment of my blog!  I will try to use this space as an accurate recording of my web development victories and fails.  Hopefully, I will be able to look back at these entries and realize just how far I was able to go in six short months.</p>
-    <p>As I write this, it is Fall of 2015, and my favorite team, the New York Mets, are down 3-1 in the World Series.  Much like them, I sometimes feel like an underdog in life in general.  On the surface, I probably don't look like a typical web developer, gamer, or classically trained musician, but the cool thing about being an underdog is that you get to surprise the heck out of people pretty often.  I pray that my Mets are able to do that, but more importantly I hope that I can reach the goal that I have set for myself of finishing the Bootcamp and securing a job that I really enjoy.</p>
-  </article>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <div>
+          <h1>Blog</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <article class="blog">
+        <h2>Halfway Through!</h2>
+        <time datetime="2016-2-7">2/7/2016</time>
+        <blockquote>“Anything worth doing is worth doing poorly--until you can learn to do it well.”
+        ― Zig Ziglar
+        </blockquote>
+        <p>It has been over 3 full months since my first class in this wild ride of a bootcamp.  As promised, I have had moments of brilliance, and, probably more often, moments where I felt like I would never understand this web development stuff even if I had all of the time in the world! It has been fun, and I can confidently say that I have learned much more than I ever could have by just studying this stuff by myself at home.</p>
+        <p>Way back when I was a guitar class T.A. in college, I used to tell the beginning students the above quote by Ziglar. This wasn't meant to discourage them, but to impress upon them the reality that they were probably going to suck at guitar for awhile...their fingers and wrists would hurt, their brains would feel like they were trying to read alphabet soup, and their roommates would probably ask them more than once if they had somewhere else to practice.  But if they kept practicing, especially when they didn't feel like it, they would start to sound and feel like real guitarists.</p>
+        <p>I am definitely taking my own advice to heart now. Some days I feel like I can't remember anything I've learned and it's super discouraging, but when I take a step back I can see just how far I've come.  I just built my own node web server for this portfolio...how freaking cool is that?! I didn't even know what that was a week ago! I'm super excited to see what happens when all of these lessons start to come together, but for now I just need to keep working on feeling and being a web developer.</p>
+      </article>
+    </div>
+    <div class="row-fluid">
+      <article class="blog">
+        <h2>Opening Thoughts...</h2>
+        <time datetime="2015-11-1">10/30/2015</time>
+        <blockquote>Every time you post something online, you have a choice. You can either make it something that adds to the happiness levels in the world - or you can make it something that takes away...There is enough sadness in the world already. You don't need to add to it.
+        - Zoe Sugg
+        </blockquote>
+        <p>Welcome to the initial installment of my blog!  I will try to use this space as an accurate recording of my web development victories and fails.  Hopefully, I will be able to look back at these entries and realize just how far I was able to go in six short months.</p>
+        <p>As I write this, it is Fall of 2015, and my favorite team, the New York Mets, are down 3-1 in the World Series.  Much like them, I sometimes feel like an underdog in life in general.  On the surface, I probably don't look like a typical web developer, gamer, or classically trained musician, but the cool thing about being an underdog is that you get to surprise the heck out of people pretty often.  I pray that my Mets are able to do that, but more importantly I hope that I can reach the goal that I have set for myself of finishing the Bootcamp and securing a job that I really enjoy.</p>
+      </article>
+    </div>
+  </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
