@@ -103,11 +103,11 @@ img.img-responsive{
   padding-left: 0;
 }
 
-h3 {
+/*h3 {
   font-style: italic;
-}
+}*/
 .full {
-  background-color: rgba(67,58,59,0.7);
+  background-color: rgba(67,58,59,0.6);
   display: table-cell;
   vertical-align: middle;
   padding-left: 0;
@@ -145,15 +145,16 @@ h3 {
 #about{
   padding: 5% 10%;
   color: #fff;
-  background-color: #666F41;
+  background-color: #6A7E87;
 }
 #skills{
+  padding-bottom: 6%;
   background-image: url("/images/greyzz.png");
 }
 #skills h1{
   text-align: center;
-  margin-top: 7%;
-  margin-bottom: 3%;
+  margin-top: 6%;
+  margin-bottom: 1%;
 }
 ul{
   list-style-type: none;
@@ -232,7 +233,7 @@ p > a:hover, .bnav a:hover, .projects a:hover {
 #projects {
   background-color: #F0F0F0;
 }
-#fun, .blog {
+#fun {
   background-image: url("/images/Splashmin.jpg");
 }
 .fun {
@@ -240,7 +241,18 @@ p > a:hover, .bnav a:hover, .projects a:hover {
   padding-right: 0;
 }
 #fun {
-  padding: 10px;
+  padding: 15px;
+}
+#fun h1 {
+  margin-left: 20px;
+}
+#fun ul {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#extras{
+  padding: 20px;
+  background-color: whitesmoke;
 }
 .projects .list-group{
   padding-right: 0;
