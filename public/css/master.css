@@ -1,6 +1,6 @@
 body {
   background-color: #fefefe;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 22px
 }
 .navbar-header {
@@ -40,7 +40,7 @@ body {
 }
 .navbar-fixed-top {
   position: fixed;
-   right: 0; 
+   right: 0;
   left: 0;
   z-index: 1030;
 }
@@ -147,14 +147,18 @@ img.img-responsive{
   color: #fff;
   background-color: #6A7E87;
 }
+.tech {
+  background-color: rgba(68,115,119,.8);
+  padding-bottom: 6%
+}
 #skills{
-  padding-bottom: 6%;
-  background-image: url("/images/greyzz.png");
+  color: white;
+  background-image: url("/images/wood.jpg");
+  background-size: cover;
 }
 #skills h1{
   text-align: center;
   margin-top: 6%;
-  margin-bottom: 1%;
 }
 ul{
   list-style-type: none;
@@ -163,6 +167,7 @@ ul{
   height: 50px;
   line-height: 40px;
   margin-top: 30px;
+  margin-left: 30px;
 }
 li>img{
   position: relative;
@@ -211,7 +216,7 @@ p > a:hover, .bnav a:hover, .projects a:hover {
 #contact {
   text-align: center;
  }
- #graySelfie{
+#graySelfie{
   width: auto;
   margin-bottom: 0;
  }
@@ -259,13 +264,13 @@ p > a:hover, .bnav a:hover, .projects a:hover {
 }
 
 .projects .table-responsive {
-  padding-left: 5px;  
+  padding-left: 5px;
 }
 
 .projects table {
   font-size: medium;
 }
 .navbar-collapse.collapse.in {
-  display: block !important; 
+  display: block !important;
   background-color: #EBEBEB;
-} 
+}
