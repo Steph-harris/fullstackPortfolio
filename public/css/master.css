@@ -242,9 +242,8 @@ p > a:hover, .bnav a:hover, .projects a:hover {
 #fun {
   color: #46300C;
   background-image: url("/images/music-brown.jpg");
-  /*background-size: cover;*/
   background-position: 20% 100%;
-  padding: 5% 1%;
+  padding: 5%;
 }
 .fun {
   padding-left: 0;
