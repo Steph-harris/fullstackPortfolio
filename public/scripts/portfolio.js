@@ -11,6 +11,5 @@ $(document).ready(function(){
 
   $body.scrollspy({
     target: '#sidebar',
-    // offset: homeHeight
-  });        
+  });
 });
