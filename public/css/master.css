@@ -143,9 +143,9 @@ img.img-responsive{
   top: 95px;
 }
 #about{
-  padding: 5% 10%;
+  padding: 7% 15% 7% 18%;
   color: #fff;
-  background-color: #6A7E87;
+  background-color: #326379;
 }
 .tech {
   background-color: rgba(113, 62, 0, 0.8);
@@ -209,8 +209,10 @@ a {
 a:visited {
   color:#2A2E53;
 }
-
-p > a:hover, .bnav a:hover, .projects a:hover {
+p > a:hover, p > a:visited {
+  color:#BB7C34
+}
+.bnav a:hover, .projects a:hover {
   color:#3383AD;
 }
 
@@ -243,7 +245,7 @@ p > a:hover, .bnav a:hover, .projects a:hover {
   color: #46300C;
   background-image: url("/images/music-brown.jpg");
   background-position: 20% 100%;
-  padding: 5%;
+  padding: 7% 12%;
 }
 .fun {
   padding-left: 0;
@@ -258,8 +260,10 @@ p > a:hover, .bnav a:hover, .projects a:hover {
   padding-left: 20px;
 }
 #extras{
-  padding: 20px;
-  background-color: whitesmoke;
+  padding: 0 3%;
+  background-color: #BFC0B8;
+  color: #274D5D;
+  text-align: right;
 }
 .projects .list-group{
   padding-right: 0;
