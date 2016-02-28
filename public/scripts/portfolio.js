@@ -2,8 +2,10 @@ $(document).ready(function(){
   //close navbar on selection
   var navCol = $(".navbar-collapse");
   var navLink = $(".navbar-nav a");
+  //.navbar-collapse a needs to close nav too
 
   navLink.on("click", function(){
+    //add logic to close nav if it's not in focus
     //logic to keep nav from closing on dropdown-toggle
     if($(this).hasClass("dropdown-toggle")){
       return
