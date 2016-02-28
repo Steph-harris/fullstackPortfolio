@@ -138,6 +138,9 @@ img.img-responsive{
   padding-top: 10%;
   margin-bottom: 0;
 }
+@media only screen and (max-width: 320px) {
+  #home h1  { font-size: 2.3em; }
+}
 
 #home p {
   font-size: 1.5em;
@@ -146,6 +149,7 @@ img.img-responsive{
   position: relative;
   top: 95px;
 }
+
 #about{
   padding: 7% 15% 7% 18%;
   color: #fff;
@@ -225,6 +229,7 @@ p > a:hover, p > a:visited {
  }
  .contactPic {
   padding-right: 0;
+  padding-left: 0;
  }
 #graySelfie{
   width: auto;
