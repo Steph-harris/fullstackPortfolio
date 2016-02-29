@@ -50,9 +50,9 @@ body {
 .navbar-default .navbar-toggle .icon-bar{
   background-color: #332F2F;
 }
-.navbar-fixed-top .navbar-collapse {
+/*.navbar-fixed-top .navbar-collapse {
   min-height: 580px;
-}
+}*/
 .nav>li>a {
   padding: 13px 10px;
 }
