@@ -4,6 +4,9 @@ $(document).ready(function(){
   var navLink = $(".navbar-nav a");
   //.navbar-collapse a needs to close nav too
 
+  // navCol.on("blur", function(){
+  //   navCol.collapse('hide');
+  // }
   navLink.on("click", function(){
     //add logic to close nav if it's not in focus
     //logic to keep nav from closing on dropdown-toggle
