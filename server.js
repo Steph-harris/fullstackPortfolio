@@ -32,6 +32,9 @@ app.get("/blog", function(req, res){
 app.get("/showcase", function(req, res){
   res.sendFile(process.cwd() + "/views/showcase.html");
 });
+app.get("/pictest", function(req, res){
+  res.sendFile(process.cwd() + "/views/picTest.html");
+});
 app.get("/:anything_else", function(req, res){
   res.send("That file doesn't exist. Did you mean to put / ?");
 });
