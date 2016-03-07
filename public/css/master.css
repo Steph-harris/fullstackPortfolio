@@ -245,7 +245,7 @@ p > a:hover, p > a:visited {
   padding-bottom: 8%;
 }
 #contactSocIcons {
-  margin-bottom: 0;
+  margin-bottom: 7px;
   padding-top: 5px;
 }
 .info {
