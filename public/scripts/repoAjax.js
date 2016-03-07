@@ -13,14 +13,14 @@ $(document).ready(function(){
       console.log(jqXHR);
       console.log(textStatus);
       console.log(errorThrown);
-    }  
+    }
   });
 
   function repoLink (repoData) {
     // create unique url for each repo
     var commitUrl = "https://api.github.com/repos/Steph-harris/"
     commitUrl += repoData.name + "/commits";
-    
+
     // create a link to attach to each repo
     var newLink = $("<a>")
       .attr("href", commitUrl)
@@ -28,5 +28,5 @@ $(document).ready(function(){
       .append(repoData.name)
 
     return newLink;
-  }   
+  }
 });
