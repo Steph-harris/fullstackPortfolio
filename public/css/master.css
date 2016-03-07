@@ -67,7 +67,6 @@ nav {
 }
 img {
   position: relative;
-  margin-bottom: 10px;
 }
 #sidebar {
   font-size: 1.2em;
@@ -86,8 +85,9 @@ img {
 .nav>li>a:hover {
   font-size: 1.1em;
 }
-img.img-responsive{
+img.navIm.img-responsive {
   width: 223px;
+  margin-bottom: 10px;
 }
 .socIcons {
   margin-bottom: 36%;
@@ -183,6 +183,7 @@ li>img{
   top: 8px;
   height: 20px;
   width: 20px;
+  margin-bottom: 20px;
 }
 .homeList {
   margin-top: 7px;
@@ -225,6 +226,8 @@ p > a:hover, p > a:visited {
 }
 
 #contact {
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
  }
  .contactPic {
@@ -242,7 +245,7 @@ p > a:hover, p > a:visited {
   padding-bottom: 8%;
 }
 #contactSocIcons {
-  margin-bottom: 0;
+  margin-bottom: 7px;
   padding-top: 5px;
 }
 .info {
