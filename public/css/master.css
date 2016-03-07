@@ -226,6 +226,8 @@ p > a:hover, p > a:visited {
 }
 
 #contact {
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
  }
  .contactPic {
