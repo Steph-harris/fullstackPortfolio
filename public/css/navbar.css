@@ -31,21 +31,8 @@ body {
 
 /* Custom Button Styles */
 
-.btn-dark {
-    border-radius: 0;
-    color: #fff;
-    background-color: rgba(0,0,0,0.4);
-}
-
-.btn-dark:hover,
-.btn-dark:focus,
-.btn-dark:active {
-    color: #fff;
-    background-color: rgba(0,0,0,0.7);
-}
-
 .btn-light {
-    border-radius: 0;
+    border-radius: 50%;
     color: #333;
     background-color: rgb(255,255,255);
 }
@@ -73,7 +60,7 @@ hr.small {
     height: 100%;
     margin-right: -250px;
     overflow-y: auto;
-    background: #222;
+    background: #fff;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -98,12 +85,12 @@ hr.small {
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999;
+    color: #777;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #326379;
     background: rgba(255,255,255,0.2);
 }
 
@@ -119,16 +106,16 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999;
+    color: #777;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: #326379;
     background: none;
 }
 
 #menu-toggle {
-    z-index: 1;
+    z-index: 1000;
     position: fixed;
     top: 0;
     right: 0;
@@ -145,7 +132,7 @@ hr.small {
 }
 
 .toggle {
-    margin: 5px 5px 0 0;
+    margin: 10px 10px 0 0;
 }
 
 /* Header */
