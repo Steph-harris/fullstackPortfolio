@@ -7,71 +7,86 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" type="text/css" href="/css/master.css">
+    <link rel="stylesheet" type="text/css" href="/css/onePage.css">
+    <link rel="stylesheet" type="text/css" href="/css/navbar.css">
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-left" id='sidebar'>
-      <div class="navbar-header">
-        <!-- <a class="navbar-brand" href="#">Stephanie Harris</a> -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="navGray">
-        <div class="nav navbar-collapse collapse">
-          <a href="#home"><span class="sr-only">(current)</span><img src="/images/grayrcbpic.png" class="img-responsive" title="Home"></a>
-          <div class="socIcons" id="navSocIcons">
-            <a href="https://www.linkedin.com/in/stephharris21" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-48.png" alt="Stephanie's Linkedin"  border="0">
-            </a>
-            <a href="https://github.com/Steph-harris" target="_blank"><img src="http://cdn.flaticon.com/svg/38/38401.svg" alt="Stephanie's Github"  border="0">
-            </a>
-            <a href="http://stackoverflow.com/users/5072001/stephanie-harris" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/stackoverflow_rounded-128.png" alt="Stephanie's Stack"  border="0">
-            </a>
-          </div>
-
-          <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#fun">Fun Facts</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="/showcase">Showcase</a></li>
-                <li><a href="/projects">Github Log</a></li>
-              </ul>
-            </li>
-            <li><a href="/blog">Blog</a></li>
-          </ul>
+    <a id="menu-toggle" href="#" class="btn btn-light btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper" class="">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand">
+            <a href="#top" onclick="$(&quot;#menu-close&quot;).click();">Stephanie Harris</a>
+        </li>
+        <li>
+            <a href="#home" onclick="$(&quot;#menu-close&quot;).click();"><span class="sr-only">(current)</span><img src="/images/grayrcbpic.png" class="navIm img-responsive" title="Home"></a>
+        </li>
+        <div class="socIcons" id="navSocIcons">
+          <a href="https://www.linkedin.com/in/stephharris21" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-48.png" alt="Stephanie's Linkedin"  border="0">
+          </a>
+          <a href="https://github.com/Steph-harris" target="_blank"><img src="http://cdn.flaticon.com/svg/38/38401.svg" alt="Stephanie's Github"  border="0">
+          </a>
+          <a href="http://stackoverflow.com/users/5072001/stephanie-harris" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/stackoverflow_rounded-128.png" alt="Stephanie's Stack"  border="0">
+          </a>
         </div>
-      </div>
+        <li>
+            <a href="#about" onclick="$(&quot;#menu-close&quot;).click();">About</a>
+        </li>
+        <li>
+            <a href="#skills" onclick="$(&quot;#menu-close&quot;).click();">Skills</a>
+        </li>
+        <li>
+            <a href="#contact" onclick="$(&quot;#menu-close&quot;).click();">Contact</a>
+        </li>
+        <li>
+            <a href="#fun" onclick="$(&quot;#menu-close&quot;).click();">Fun Facts</a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/showcase">Showcase</a></li>
+            <li><a href="/projects">Github Log</a></li>
+          </ul>
+        </li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
     </nav>
+
     <div class="main-content-wrapper">
   <!-- section 1 -->
   <section id="one">
-    <h1>Stephanie Harris</h1>
-      <p>MEAN stack web developer located in central NJ</p>
-      <div class="socIcons">
-        <a href="https://www.linkedin.com/in/stephharris21" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/windev-contacts-2/512/linkedin-512.png" alt="Stephanie's Linkedin" title="LinkedIn" border="0">
-        </a>
-        <a href="https://github.com/Steph-harris" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-media-outline-color/32/github_social_media_online-128.png" alt="Stephanie's Github" title="Github" border="0">
-        </a>
-        <a href="http://stackoverflow.com/users/5072001/stephanie-harris" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/stackoverflow-128.png" alt="Stephanie's Stack" title="Stackoverflow" border="0">
-        </a>
-        <a href="https://twitter.com/steph_harris21" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_twitter_box_blue.png" alt="Stephanie's Twitter" title="Twitter" border="0">
-        </a>
+    <div class="col-xs-12" id="home">
+      <div class="col-xs-12 full">
+        <div class="headInfo col-xs-12 col-sm-10 col-sm-offset-1">
+          <h1>Stephanie Harris</h1>
+          <p>MEAN stack web developer located in central NJ</p>
+          <div class="socIcons">
+            <a href="https://www.linkedin.com/in/stephharris21" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/windev-contacts-2/512/linkedin-512.png" alt="Stephanie's Linkedin" title="LinkedIn" border="0">
+            </a>
+            <a href="https://github.com/Steph-harris" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-media-outline-color/32/github_social_media_online-128.png" alt="Stephanie's Github" title="Github" border="0">
+            </a>
+            <a href="http://stackoverflow.com/users/5072001/stephanie-harris" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/stackoverflow-128.png" alt="Stephanie's Stack" title="Stackoverflow" border="0">
+            </a>
+            <a href="https://twitter.com/steph_harris21" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_twitter_box_blue.png" alt="Stephanie's Twitter" title="Twitter" border="0">
+            </a>
+          </div>
+        </div>
       </div>
+    </div>
   </section>
 
   <!-- section 2-->
   <section id="two">
-    <h1>About Me</h1>
-    <p>I’m Stephanie Harris and I’ve recently left a career as a church music director to become a web developer.  I actually built my very first website when I was 11, but it wasn’t until last year, when I signed up for an online coding bootcamp, that I seriously considered a career in tech. I still love music, but I want a more rewarding career that allows me to continuously learn new things.</p>
-    <br />
-    <p>I knew that I would benefit more, and progress quicker, by participating in the more collaborative and immersive experience that an in person bootcamp like Rutgers’ offers. So I switched to Rutgers’ Coding Bootcamp where I’ve developed skills in many front and back-end technologies like the ones listed below.</p>
-    <br />
-    <p>For more about me, check out my <a href="/showcase">Project Showcase</a>, <a href="/blog">Blog</a>, or the <a href="http://painter-mildred-27247.bitballoon.com/" target="_blank">Portfolio</a> that I built right before I started at Rutgers.</p>
+    <div class="col-xs-12" id="about">
+      <section>
+        <h1>About Me</h1>
+        <p>I’m Stephanie Harris and I’ve recently left a career as a church music director to become a web developer.  I actually built my very first website when I was 11, but it wasn’t until last year, when I signed up for an online coding bootcamp, that I seriously considered a career in tech. I still love music, but I want a more rewarding career that allows me to continuously learn new things.</p>
+        <br />
+        <p>I knew that I would benefit more, and progress quicker, by participating in the more collaborative and immersive experience that an in person bootcamp like Rutgers’ offers. So I switched to Rutgers’ Coding Bootcamp where I’ve developed skills in many front and back-end technologies like the ones listed below.</p>
+        <br />
+        <p>For more about me, check out my <a href="/showcase">Project Showcase</a>, <a href="/blog">Blog</a>, or the <a href="http://painter-mildred-27247.bitballoon.com/" target="_blank">Portfolio</a> that I built right before I started at Rutgers.</p>
+      </section>
+    </div>
   </section>
 
   <!-- section 3 -->
@@ -81,24 +96,24 @@
       <ul>
         <li><i class="fa fa-html5"></i> HTML</li>
         <li><i class="fa fa-css3"></i> CSS</li>
-        <li><img alt="Bootstrap" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRnGFSgtMYmpksW0h96RB8ymOUNG6jWGZHTPh685K_hxwFF1ha0FA"> Bootstrap</li>
+        <li><i class="devicon-bootstrap-plain"></i> Bootstrap</li>
         <li><img alt="Materialize" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSaHI98DwQW8i9agPN_ZlEGbZe55_i_mDUGPDDnzKkGUKuc_3zK"> Materialize</li>
       </ul>
     </div><!-- end column -->
     <div id="list-2" class="col-sm-6 col-md-3">
       <ul>
-        <li><img alt="Javascript" src="http://axellessio.com/wp-content/themes/axel/dist/img/project-icons/js.png"> Javascript</li>
-        <li><img alt="jQuery" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRMy-LEpHl77B8JWPJm0o2rO0f5fCDc1C_QRytEJx7GXAbO8A0YkQ"> jQuery</li>
+        <li><i class="devicon-javascript-plain"></i> Javascript</li>
+        <li><i class="devicon-jquery-plain"></i> jQuery</li>
         <li><img alt="Express" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT5zblGBqjy6jaRdSOIiEFVpVuNetbaUJ9iWKUhwFUPZD8myqRN"> Express.js</li>
-        <li><img alt="Node.js" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlt72pGGzVhXBrtvnwphVL0gVw2yxWlGFbmZeHywPyV9oy-QXA"> Node.js</li>
+        <li><i class="devicon-nodejs-plain"></i> Node.js</li>
       </ul>
     </div><!-- end column -->
     <div id="list-3" class="col-sm-6 col-md-3">
       <ul>
         <li><img alt="Sequelize" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTy2tjQfRKMUJgb9ngMou5aXrpQDnF7nIsNA43iv7OM57p-GRMb1A"> Sequelize</li>
         <li><img alt="Firebase" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn01wtWimkwT7Vh0DdeBvLI1OmhMcoHYMYAQAyXRiYOWvBzG_CbQ"> Firebase</li>
-        <li><img alt="MySQL" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQkbcH-dLsl__Fe-zA8L7zkYMY8wZQdvThpEqRpZ4qJEDeEsdDFHg"> MYSQL</li>
-        <li><img alt="MongoDB" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTED_QmxFvmihWuMZ-lFJkHyqZ6X4SvI4vDGnvavtR0SGrw-DVO"> MongoDB</li>
+        <li><i class="devicon-mysql-plain"></i> MYSQL</li>
+        <li><i class="devicon-mongodb-plain colored"></i> MongoDB</li>
       </ul>
     </div><!-- end column -->
     <div id="list-4" class="col-sm-6 col-md-3">
@@ -122,21 +137,26 @@
   <!-- section 4 -->
   <section>
    <div class="info" >
-     <h1>Contact Info</h1>
-     <p><strong>Mailing Address:</strong><br>
-     133 Arlington Ave <br> Somerset, NJ 08873</p>
-     <p><strong>Email: </strong>Steph.harris21@gmail.com</p>
-     <p><strong>Cell: </strong> 908-616-8505</p>
-     <div class="socIcons" id="contactSocIcons">
-       <a href="https://www.linkedin.com/in/stephharris21" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-48.png" alt="Stephanie's Linkedin"  border="0">
-       </a>
-       <a href="https://github.com/Steph-harris" target="_blank"><img src="http://cdn.flaticon.com/svg/38/38401.svg" alt="Stephanie's Github"  border="0">
-       </a>
-       <a href="http://stackoverflow.com/users/5072001/stephanie-harris" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/stackoverflow_rounded-128.png" alt="Stephanie's Stack"  border="0">
-       </a>
-       <a href="https://twitter.com/steph_harris21" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/twitter-square-social-media-128.png" alt="Stephanie's Twitter"  border="0">
-       </a>
-     </div>
+     <div class="col-xs-12" id="contact">
+        <img class="featurette-image img-responsive pull-right" src="/images/grayselfie.png">
+        <h2 class="featurette-heading">Contact Info
+          <span class="text-muted"></span>
+        </h2>
+        <p class="lead"><strong>Mailing Address:</strong><br>
+           Easton Ave <br> Somerset, NJ 08873</p>
+        <p><strong>Email: </strong>Steph.harris21@gmail.com</p>
+        <p><strong>Cell: </strong> 908-616-8505</p>
+        <div class="socIcons" id="contactSocIcons">
+          <a href="https://www.linkedin.com/in/stephharris21" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-48.png" alt="Stephanie's Linkedin"  border="0">
+          </a>
+          <a href="https://github.com/Steph-harris" target="_blank"><img src="http://cdn.flaticon.com/svg/38/38401.svg" alt="Stephanie's Github"  border="0">
+          </a>
+          <a href="http://stackoverflow.com/users/5072001/stephanie-harris" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/picons-social/57/stackoverflow_rounded-128.png" alt="Stephanie's Stack"  border="0">
+          </a>
+          <a href="https://twitter.com/steph_harris21" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/twitter-square-social-media-128.png" alt="Stephanie's Twitter"  border="0">
+          </a>
+        </div>
+      </div>
      <!-- <br />
      <h3>Leave a Message</h3>
      <form>
