@@ -40,7 +40,7 @@ $(document).ready(function(){
     }
   ]
 
- for(var i=0; i<projects.length; i++){
+  for(var i=0; i<projects.length; i++){
    //build div with project image that toggles modal
    var newProj = '<div class="col-xs-12 col-sm-6 col-md-4 show-im">'
    newProj += '<a data-toggle="modal" data-target="#modal'+ [i+1] + '" target="_blank">'
@@ -69,11 +69,7 @@ $(document).ready(function(){
     newModal += '</div></div></div></div>'
 
    $(".projectIms").append(newProj).append(newModal);
- }
-
- // <a href="https://candsclicky.herokuapp.com"
- // target="_blank"><img class="img-responsive"
- // src="/images/clicky.png"></a>
+  }
 
   // changes all project images to height of biggest pic...
   function picEqual() {
@@ -90,9 +86,8 @@ $(document).ready(function(){
   $(window).load(function(){
     picEqual();
   });
-
+  //do something when a projIm is hovered
   $(".show-im").on("mouseenter", function(){
       // console.log(this);
   });
 });
-//
