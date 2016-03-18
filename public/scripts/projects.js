@@ -38,19 +38,24 @@ $(document).ready(function(){
     $(".projectIms").append(newProj);
   }
 
-  // changes all project images to height of biggest pic
-  $(window).resize(function() {
-    debugger;
+  // changes all project images to height of biggest pic...
+  function picEqual() {
     var maxHeight = 0;
     maxHeight = $("#projIm1").height();
 
     $("div .show-im").height(maxHeight);
-    // $(".fitRow").height(maxHeight);
+  }
+  //...whenever the window is resized
+  $(window).resize(function() {
+    picEqual();
+  });
+  //...when the page is first loaded
+  $(window).load(function(){
+    picEqual();
   });
 
   $(".show-im").on("mouseenter", function(){
-    console.log(this);
+      console.log(this);
   });
 });
-
-
+//
