@@ -143,6 +143,10 @@ p > a:hover, p > a:visited {
   color:#3383AD;
 }
 
+.show-im {
+  padding: 0;
+}
+
 #contact {
   padding-left: 0;
   padding-right: 0;

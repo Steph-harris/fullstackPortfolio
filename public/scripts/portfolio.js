@@ -58,4 +58,12 @@ $('.main-content-wrapper').stickyStack({
       }
     });
   });
+
+  $( window ).resize(function() {
+    debugger;
+    var maxHeight = 0;
+    maxHeight = $("#bigPic").height();
+
+    $("div .show-im").height(maxHeight);
+  });
 });
