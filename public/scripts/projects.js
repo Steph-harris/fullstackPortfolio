@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   //Create Project Objects
   var projects = [
     {
