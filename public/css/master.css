@@ -1,6 +1,6 @@
 body {
   background-color: #fefefe;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-size: 22px
 }
 
@@ -216,4 +216,8 @@ p > a:hover, p > a:visited {
 .navbar-collapse.collapse.in {
   display: block !important;
   background-color: #EBEBEB;
+}
+
+h1 {
+  font-weight: 500;
 }
