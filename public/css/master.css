@@ -83,7 +83,7 @@ img.navIm.img-responsive {
   /*background-size: cover;*/
   background-size: 100% 100%;
 }
-#skills h1{
+#skills h1, #projectIms h1 {
   text-align: center;
   margin-top: 8%;
 }
@@ -142,27 +142,38 @@ p > a:hover, p > a:visited {
 .bnav a:hover, .projects a:hover {
   color:#3383AD;
 }
-
+#projectIms{
+  padding: 25px;
+  text-align: center;
+  color: #fff;
+  background-color: #616161;
+}
+.modal-body{
+  color: black;
+}
+.modal-body p{
+  text-align: left;
+}
 .show-im {
-  padding: 0;
+  padding: 10px;
 }
 
 #contact {
   padding-left: 0;
   padding-right: 0;
   text-align: center;
- }
- .contactPic {
-  padding-right: 0;
-  padding-left: 0;
- }
+}
+.contactPic {
+padding-right: 0;
+padding-left: 0;
+}
 #graySelfie{
   width: auto;
   margin-bottom: 0;
- }
- #contact p {
-  padding-top: 13px;
- }
+}
+#contact p {
+padding-top: 13px;
+}
 #contact form {
   padding-bottom: 8%;
 }
@@ -176,7 +187,14 @@ p > a:hover, p > a:visited {
   padding-bottom: 15%;
 }
 #projects {
-  background-color: #F0F0F0;
+  background-color: #808080;
+}
+#projectIms h1 {
+  text-align: center;
+  margin-top: 5%;
+}
+.fitRow{
+  border-radius: 5px;
 }
 #fun {
   color: #46300C;
