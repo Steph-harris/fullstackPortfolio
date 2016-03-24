@@ -191,10 +191,26 @@ padding-top: 13px;
 }
 #projectIms h1 {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 4%;
+  margin-bottom: 3%;
 }
 .fitRow{
   border-radius: 5px;
+}
+
+.fitRow:hover {
+  transition: transform 500ms linear 0s;
+  transform: scale(1.05, 1.05);
+}
+
+.imInfo {
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  color:#fff;
+  background-color: black;
+  text-transform:uppercase;
+  display: none;
 }
 #fun {
   color: #46300C;
