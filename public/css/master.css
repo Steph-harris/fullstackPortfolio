@@ -205,10 +205,11 @@ padding-top: 13px;
 
 .imInfo {
   position: absolute;
-  top: 20%;
-  left: 22%;
+  top: 33%;
+  left: 3%;
+  width: 94%;
   color:#fff;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
   text-transform:uppercase;
   display: none;
 }

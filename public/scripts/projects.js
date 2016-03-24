@@ -46,7 +46,7 @@ $(document).ready(function(){
    newProj += '<a data-toggle="modal" data-target="#modal'+ [i+1] + '" target="_blank">'
    newProj += '<img id="projIm' + [i+1] + '" class="img-responsive fitRow "'
    newProj += 'src="' + projects[i].pic + '">'
-   newProj += '<span class="imInfo"><h3>Click for Details</h3></span>';
+   newProj += '<div class="imInfo"><h3>Click for Details</h3></div>';
    newProj += '</a></div>';
 
     var newModal = '<div class="modal fade" id="modal'+ [i+1] + '"'
@@ -90,8 +90,8 @@ $(document).ready(function(){
   });
   //do something when a projIm is hovered
   $(".show-im").on("mouseenter", function(){
-      $(".imInfo", this).show();
+    $(".imInfo", this).show();
   }).on("mouseleave", function(){
-      $(".imInfo", this).hide();
+    $(".imInfo", this).hide();
   });
 });
