@@ -68,7 +68,7 @@ $(document).ready(function(){
     newModal += '<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>'
     newModal += '</div></div></div></div>'
 
-   $(".projectIms").append(newProj).append(newModal);
+   $("#projectIms").append(newProj).append(newModal);
   }
 
   // changes all project images to height of biggest pic...
