@@ -77,10 +77,14 @@ img.navIm.img-responsive {
   background-color: rgba(113, 62, 0, 0.8);
   padding-bottom: 8%
 }
+.tech h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
 #skills{
   color: white;
   background-image: url("/images/mouse.png");
-  /*background-size: cover;*/
   background-size: 100% 100%;
 }
 #skills h1{

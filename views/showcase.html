@@ -5,7 +5,6 @@
     <title>Showcase</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="/css/master.css"> -->
     <link rel="stylesheet" type="text/css" href="/css/showcase.css">
   </head>
   <body>
@@ -56,114 +55,105 @@
             <h2><a href="https://mlbscrape.herokuapp.com" target="_blank">Site Scraper </a><a href="https://github.com/Steph-harris/siteScraper" target="_blank"><i class="fa fa-github"></i></a></h2>
             <h3>Summary</h3>
             <p>This site uses the cheerio node package to scrape article links and headlines from mlb.com and save them into a Mongo database. The user can then attach notes to a specific article or delete notes.</p>
-            <p>Users can also click on a game to see the home team's venue information and pictures, pulled from the FourSquare API</p>
+            <p>Up to date MLB standing are pulled from the xmlstats API.  Users can also click on a game to see the home team's venue information and picture, pulled from the FourSquare API.</p>
             <p>I used the gameday-helper package to get MLB game data, and HandlebarsJS as my templating engine.</p>
-            <h3>Technologies Used</h3>
-            <ul>
-              <li>HTML5/CSS3</li>
-              <li>Foundation</li>
-              <li>Javascript</li>
-              <li>HandlebarsJS</li>
-              <li>MongoDB</li>
-              <li>Express</li>
-              <li>Node.js</li>
-            </ul>
+            <div class="allTechDiv">
+              <div class="techDiv">
+                <h3>Technologies Used</h3>
+                <ul>
+                  <li>Node.js</li>
+                  <li>Express</li>
+                  <li>MongoDB</li>
+                  <li>HTML5/CSS3</li>
+                  <li>Foundation</li>
+                  <li>Javascript</li>
+                  <li>HandlebarsJS</li>
+                </ul>
+              </div>
+              <div class="apiDiv">
+                <h3>APIs Used</h3>
+                <ul>
+                  <li>FourSquare</li>
+                  <li>Xmlstats</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="row kata">
+        <div class="col-xs-12 col-md-6">
+          <a href="https://kata-dashboard.herokuapp.com/" target="_blank"><img class="img-responsive" src="/images/kata.png"></a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <section>
+            <h2><a href="https://kata-dashboard.herokuapp.com/" target="_blank">Kata Dashboard </a><a href="https://github.com/Steph-harris/codewars_dashboard" target="_blank"><i class="fa fa-github"></i></a></h2>
+            <h3>Summary</h3>
+            <p>I often use Codewars to practice coding in languages I haven't used in awhile. In order to quickly see the challenges and languages I've trained in, I created this dashboard in Python that pulls from the Codewars API.
+            </p>
+            <p>
+              Visitors can search for any valid user and see their solved kata displayed in the Datatable. They can then sort, filter, or page through the results. Clicking on a challenge name will show the kata description and provide a link to the challenge on Codewars.
+            </p>
+            <div class="allTechDiv">
+              <div class="techDiv">
+                <h3>Technologies Used</h3>
+                <ul>
+                  <li>Python</li>
+                  <li>Tornado</li>
+                  <li>HTML5/CSS3</li>
+                  <li>Bootstrap</li>
+                  <li>Javascript/jQuery</li>
+                </ul>
+              </div>
+              <div class="apiDiv">
+                <h3>APIs Used</h3>
+                <ul>
+                  <li>Codewars</li>
+                  <li>DataTables</li>
+                </ul>
+              </div>
+            </div>
           </section>
         </div>
       </div>
       <div class="row pets">
+        <div class="col-xs-12 col-md-6">
+          <a href="https://showusapet.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/petstiny.png"></a>
+        </div>
         <div class="col-xs-12 col-md-6">
           <section>
             <h2><a href="https://showusapet.herokuapp.com" target="_blank">Show Us a Pet </a><a href="https://github.com/Steph-harris/ourPetProject" target="_blank"><i class="fa fa-github"></i></a></h2>
             <h3>Summary</h3>
             <p>This is a shelter pet app that displays pets up for adoption close to a users zip code with images, pet description, special needs, wikipedia article (if a specific breed is provided), and care information pulled from the Flickr, WikiPedia, and PetFinder API's.</p>
             <p>Users can also leave a review of their pet via Firebase chat. </p>
-            <h3>Technologies Used</h3>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Bootstrap</li>
-              <li>Javascript and jQuery</li>
-              <li>Ajax</li>
-              <li>Firebase</li>
-              <li>Select2</li>
-            </ul>
-          </section>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <a href="https://showusapet.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/petstiny.png"></a>
-        </div>
-      </div>
-      <div class="row rufly">
-        <div class="col-xs-12 col-md-6">
-          <a href="https://rufly2.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/rufly.png"></a>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <section>
-            <h2><a href="https://rufly2.herokuapp.com" target="_blank">RU Fly </a><a href="https://github.com/tammerg/rutgers_flyer" target="_blank"><i class="fa fa-github"></i></a></h2>
-            <h3>Summary</h3>
-            <p>This was a full-stack group project that used MySQL as the database, Express for routing, Node.js as the server, Handlebars as the templating engine, and Passport/Passport-Local along with Bcrypt password hashing for login authentication.
-            </p>
-            <p> I was  responsible for setting up the database models, relationships, and controllers as well as the corresponding client-side forms.</p>
-            <h3>Technologies Used</h3>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Materialize</li>
-              <li>Javascript and jQuery</li>
-              <li>MySQL</li>
-              <li>Node.js</li>
-              <li>Handlebars</li>
-              <li>Express</li>
-              <li>Bcrypt</li>
-              <li>Passport-Local</li>
-            </ul>
-          </section>
-        </div>
-      </div>
-      <div class="row goodform">
-        <div class="col-xs-12 col-md-6">
-          <section>
-            <h2><a href="https://goodform.herokuapp.com" target="_blank">Good Form </a><a href="https://github.com/emeraldaly/good-form" target="_blank"><i class="fa fa-github"></i></a></h2>
-            <h3>Summary</h3>
-            <p>Final project incorporating the full MEAN stack. The site is an organizational tool for educational organizations based off of our experiences in this bootcamp. It streamlines communication, submission and organization of forms and other data for administration and students.</p>
-            <p>I set up the site cookies and basic protractor tests, styled the forms, and did some of the Angular and Express/MongoDB routing and controllers.</p>
-            <h3>Technologies Used</h3>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>UI Bootstrap</li>
-              <li>Javascript</li>
-              <li>Angular</li>
-              <li>MongoDB</li>
-              <li>Express</li>
-              <li>Node.js</li>
-
-            </ul>
-          </section>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <a href="https://goodform.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/goodform.png"></a>
-        </div>
-      </div>
-      <div class="row fashion">
-        <div class="col-xs-12 col-md-6">
-          <a href="https://jackieminieri.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/jmfashion.png"></a>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <section>
-            <h2><a href="https://jackieminieri.herokuapp.com" target="_blank">Jackie Minieri </a><a href="https://github.com/Steph-harris/fashionSite" target="_blank"><i class="fa fa-github"></i></a></h2>
-            <h3>Summary</h3>
-            <p>I built this site for a client who is starting her own fashion line based on marine life designs.  She wanted a portfolio site that will eventually display her products. I set up the site in an MVC layout so that later we can easily work with a database and use Handlebars for the views. </p>
-            <h3>Technologies Used</h3>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Materialize</li>
-              <li>Javascript and jQuery</li>
-              <li>Node.js</li>
-              <li>Express</li>
-            </ul>
+            <div class="allTechDiv">
+              <div class="techDiv">
+                <h3>Technologies Used</h3>
+                <ul>
+                  <li>HTML/CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Javascript/jQuery</li>
+                  <li>Ajax</li>
+                  <li>Firebase</li>
+                  <li>Select2</li>
+                </ul>
+              </div>
+              <div class="apiDiv">
+                <h3>APIs Used</h3>
+                <ul>
+                  <li>PetFinder</li>
+                  <li>Flickr</li>
+                  <li>WikiPedia</li>
+                </ul>
+              </div>
+            </div>
           </section>
         </div>
       </div>
       <div class="row rps">
+        <div class="col-xs-12 col-md-6">
+          <a href="https://stephs-rps.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/rpstiny.png"></a>
+        </div>
         <div class="col-xs-12 col-md-6">
           <section>
             <h2><a href="https://stephs-rps.herokuapp.com" target="_blank">Rock, Paper, Scissors </a><a href="https://github.com/Steph-harris/RPSGame" target="_blank"><i class="fa fa-github"></i></a></h2>
@@ -180,28 +170,72 @@
             </ul>
           </section>
         </div>
-        <div class="col-xs-12 col-md-6">
-          <a href="https://stephs-rps.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/rpstiny.png"></a>
-        </div>
       </div>
-      <div class="row clicky">
-         <div class="col-xs-12 col-md-6">
-          <a href="https://candsclicky.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/clickytiny.png"></a>
+      <div class="row fashion">
+        <div class="col-xs-12 col-md-6">
+          <a href="https://jackieminieri.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/jmfashion.png"></a>
         </div>
         <div class="col-xs-12 col-md-6">
           <section>
-            <h2><a href="https://candsclicky.herokuapp.com" target="_blank">Clicky Game #1 </a><a href="https://github.com/Steph-harris/jsClickGame" target="_blank"><i class="fa fa-github"></i></a></h2>
-            <p>and</p>
-            <h2><a href="https://quiet-wildwood-7601.herokuapp.com" target="_blank">Clicky Game #2 </a><a href="https://github.com/Steph-harris/jscript_game" target="_blank"><i class="fa fa-github"></i></a></h2>
+            <h2><a href="https://jackieminieri.herokuapp.com" target="_blank">Jackie Minieri </a><a href="https://github.com/Steph-harris/fashionSite" target="_blank"><i class="fa fa-github"></i></a></h2>
             <h3>Summary</h3>
-            <p>This was a 2 part assignment that took place a few months apart: first we were to create a clicky game using vanilla javascript that counted and displayed how many faces a user was able to click within 20 seconds (clicky game #2). After we learned jQuery, we were tasked with taking a friend's game and updating it. I added a visible point display, modals, picture background colors based on game state when on(clicked or unclicked), and made the css names more semantic.  I also added my stamp of approval to the bottom of the page which verifies that it passed JS linting.</p>
+            <p>I built this site for a client who is starting her own fashion line based on marine life designs.  She wanted a portfolio site that will eventually display her products. I set up the site in an MVC layout so that later we can easily work with a database and use Handlebars for the views. </p>
             <h3>Technologies Used</h3>
             <ul>
-              <li>HTML</li>
-              <li>CSS3 Animations</li>
-              <li>Bootstrap</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>HTML/CSS</li>
+              <li>Materialize</li>
+              <li>Javascript and jQuery</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="row rufly">
+        <div class="col-xs-12 col-md-6">
+          <a href="https://rufly2.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/rufly.png"></a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <section>
+            <h2><a href="https://rufly2.herokuapp.com" target="_blank">RU Fly </a><a href="https://github.com/tammerg/rutgers_flyer" target="_blank"><i class="fa fa-github"></i></a></h2>
+            <h3>Summary</h3>
+            <p>This was a full-stack group project that used MySQL as the database, Express for routing, Node.js as the server, Handlebars as the templating engine, and Passport/Passport-Local along with Bcrypt password hashing for login authentication.
+            </p>
+            <p> I was  responsible for setting up the database models, relationships, and controllers as well as the corresponding client-side forms.</p>
+            <h3>Technologies Used</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>MySQL</li>
+              <li>HTML/CSS</li>
+              <li>Materialize</li>
+              <li>Javascript and jQuery</li>
+              <li>Handlebars</li>
+              <li>Express</li>
+              <li>Bcrypt</li>
+              <li>Passport-Local</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <div class="row goodform">
+        <div class="col-xs-12 col-md-6">
+          <a href="https://goodform.herokuapp.com" target="_blank"><img class="img-responsive" src="/images/goodform.png"></a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <section>
+            <h2><a href="https://goodform.herokuapp.com" target="_blank">Good Form </a><a href="https://github.com/emeraldaly/good-form" target="_blank"><i class="fa fa-github"></i></a></h2>
+            <h3>Summary</h3>
+            <p>Final project incorporating the full MEAN stack. The site is an organizational tool for educational organizations based off of our experiences in this bootcamp. It streamlines communication, submission and organization of forms and other data for administration and students.</p>
+            <p>I set up the site cookies and basic protractor tests, styled the forms, and did some of the Angular and Express/MongoDB routing and controllers.</p>
+            <h3>Technologies Used</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+              <li>HTML/CSS</li>
+              <li>UI Bootstrap</li>
               <li>Javascript</li>
-              <li>jQuery</li>
+              <li>Angular</li>
             </ul>
           </section>
         </div>

@@ -39,3 +39,7 @@ td>a:hover {
   color: #DE9E29;
 }
 
+.techDiv,
+.apiDiv {
+  display: inline-block;
+}
