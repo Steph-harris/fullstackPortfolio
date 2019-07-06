@@ -18,7 +18,11 @@
   },
   "homepage": "https://github.com/Steph-harris/fullstackPortfolio#readme",
   "dependencies": {
-    "express": "^4.13.4",
-    "express-session": "^1.13.0"
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.2.1"
   }
 }
