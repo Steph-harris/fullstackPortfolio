@@ -169,14 +169,30 @@
 
       <div class="row-fluid">
         <div class="col-xs-12" id="contact">
-          <img class="featurette-image img-responsive pull-right" src="/images/grayselfie.png">
-          <h2 class="featurette-heading">Contact
-            <span class="text-muted"></span>
-          </h2>
-          <p><strong>Location:</strong><br>
-             Bucks County, PA</p>
-          <p><strong>Email: </strong><br>
-             Steph.harris21@gmail.com</p>
+          <div id="contactImageDiv">
+            <img class="featurette-image img-responsive pull-right" src="/images/grayselfie.png">
+          </div>
+
+          <div id="contactMsgDiv">
+            <h2 class="featurette-heading" id="contactHeader">Contact Me
+              <span class="text-muted"></span>
+            </h2>
+
+            <div id="contactShow">
+              <div id="warningDiv"></div>
+              <form id="msgForm" method="POST" action="/sendMessage">
+                <input type="text" id="conName" placeholder="Name" required>
+                <br>
+                <input type="email" id="conEmail" placeholder="Email" required>
+                <br>
+                <br>
+                <textarea maxlength="500" form="msgForm" id="conMessage" rows="5" cols="30" placeholder="Type your message here..." required></textarea>
+                <br />
+                <input type="submit" value="Send" id="msgSubmit" onclick="submitMsg()" data-loading-text="Sending Message...">
+              </form>
+            </div>
+          </div>
+
           <div class="socIcons" id="contactSocIcons">
             <a href="https://www.linkedin.com/in/stephharris21" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-48.png" alt="Stephanie's Linkedin"  border="0">
             </a>
@@ -187,28 +203,6 @@
             <a href="https://twitter.com/steph_harris21" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/twitter-square-social-media-128.png" alt="Stephanie's Twitter"  border="0">
             </a>
           </div>
-        </div>
-      </div>
-
-      <div class="row-fluid">
-        <div class="col-xs-12 col-sm-5">
-          <!-- <section class="info" id="contact"> -->
-              <!-- <br />
-              <h3>Leave a Message</h3>
-              <form>
-                Name:
-                <input type="text">
-                <br>
-                Email:
-                <input type="email" >
-                <br>
-                Comment:
-                <br>
-                <textarea rows ="5" cols="30">
-                </textarea>
-              </form> -->
-              <!-- id="graySelfie" -->
-          <!-- </section> -->
         </div>
       </div>
 
